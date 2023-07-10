@@ -1,0 +1,139 @@
+.f-nunito {
+  font-family: Nunito;
+}
+.f-varela {
+  font-family: Varela;
+}
+body {
+  letter-spacing: 0.0625em;
+}
+header {
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.3) 0%,
+      rgba(0, 0, 0, 0.7) 75%,
+      #000 100%
+    ),
+    url("https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/bg-masthead.jpg");
+  background-size: cover;
+  background-position: center;
+  margin-bottom: -1px;
+}
+.nav-link:hover {
+  color: white !important;
+}
+.trans {
+  transition: 0.4s !important;
+}
+
+.seffaf-bg {
+  background: rgba(255, 255, 255, 0) !important;
+}
+.primary-bg {
+  background: #64a19d !important;
+}
+.primary-bg:hover {
+  background: #64a19db0 !important;
+}
+.primary-color {
+  color: #64a19d;
+}
+.primary-color:hover {
+  color: #456d6a;
+}
+.dark-color {
+  color: rgb(33, 37, 41);
+}
+/* Texte linear rengin verilmesi */
+.main-color {
+  background: linear-gradient(
+    rgba(255, 255, 255, 0.948),
+    rgba(255, 255, 255, 0)
+  );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.dark-bg {
+  background: linear-gradient(
+    to bottom,
+    #000 0%,
+    rgba(0, 0, 0, 0.92) 50%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+}
+#subscribe-bg {
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.1) 0%,
+      rgba(0, 0, 0, 0.5) 75%,
+      #000 100%
+    ),
+    url("https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/bg-signup.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.sidebar {
+  position: absolute;
+  top: -250px;
+  left: 0;
+  height: 220px;
+}
+.sidebar.open {
+  top: 0;
+}
+.nav-text p {
+  font: 700 20px Varela;
+}
+.nav-text ul li {
+  font: 600 1rem Varela;
+}
+.card-text h1 {
+  font: 500 6.5rem/6.5rem Varela;
+  letter-spacing: 0.8rem;
+}
+.card-text h2 {
+  font-family: Nunito;
+  line-height: 1.2;
+}
+.card-text p {
+  font: 400 1.25rem Varela;
+}
+.card-text a,
+.card-text button {
+  font-size: 80%;
+  letter-spacing: 0.15rem;
+}
+.footer-boxes div div {
+  letter-spacing: 0.15rem;
+}
+#icons div a {
+  height: 3rem;
+  width: 3rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+@media screen and (max-width: 992px) {
+  .card-text h1 {
+    font: 500 4rem/4rem Varela;
+  }
+  .card-text p {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .card-text h1 {
+    font: 500 2.5rem/2.5rem Varela;
+  }
+  .card-text p {
+    font-size: 0.8rem;
+    width: 80% !important;
+  }
+}
+@media screen and (max-width: 415px) {
+  .card-text h1 {
+    font: 700 1.3rem/1.3rem Varela;
+  }
+  .card-text p {
+    font-size: 0.9rem !important;
+  }
+}
